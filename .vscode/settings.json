@@ -1,0 +1,20 @@
+{
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "javascript.format.enable": false,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "rust.unstable_features": true,
+    "git.ignoreLimitWarning": true
+}

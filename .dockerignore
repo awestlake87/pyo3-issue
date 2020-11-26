@@ -1,0 +1,12 @@
+**/.git
+**/.vscode
+
+**/.mypy_cache
+**/__pycache__
+
+**/node_modules
+**/.nuxt
+
+target
+data
+.dev-home

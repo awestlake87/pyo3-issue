@@ -1,0 +1,16 @@
+[package]
+name = "pyo3-issue"
+version = "0.1.0"
+authors = ["Andrew J Westlake <kelixes@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+async-std = { version = "1.7", features = ["unstable"] }
+async-tungstenite = { version = "0.7", features = ["async-std-runtime"] }
+env_logger = "0.7"
+futures = "0.3"
+js-sys = "0.3"
+lazy_static = "1.4"
+log = "0.4"
+pyo3 = { version = "0.12" }
+nix = "0.18"
